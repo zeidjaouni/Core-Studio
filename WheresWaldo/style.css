@@ -611,13 +611,657 @@ p{
   position: absolute;
   top:10px;
 }
-@media screen and (min-width: 680px) {
-  aside {
-      width: 33%;
-  }
+
+.resize{
+  width: 50px;
+  height:50px;
 }
 
-@media screen and (max-width: 680px) {
+/* main {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+} */
+
+
+
+
+
+
+
+/* 
+@media screen and (max-width: 600px) {
+  aside {
+      width: 100%;
+  }
+
+  body{
+    overflow: hidden;
+  }
+    
+  .container{
+    width: 100%;
+      height: 100%;
+  }
+    h1 {
+      text-align: center;
+      font-size: 20px;
+      color: black;
+      background-color: yellow;
+      margin-left:160px ;
+      margin-right:160px ;
+      padding: 20px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 20px;
+      color: black;
+      background-color: #ed3e37;
+      margin-left:160px ;
+      margin-right:160px ;
+      padding: 20px;
+    }
+  
+    h3 {
+      margin-top: 80px;
+      text-align: center;
+      font-size: 30px;
+      color: black;
+      top: 80px;
+  }
+  
+     h4 {
+      font-size: 15px;
+      color: black;
+      text-align: left;
+      font-size: small;
+      font-weight: normal;
+      line-height: 1.8;
+  }
+     
+      
+     h5 {
+      text-align: left;
+      font-size: 20px;
+      color: black;
+      
+    }
+  
+    h6 {
+      text-align: center;
+      font-size: 20px;
+      color: black;
+      background-color: yellow;
+      margin-left: 45%;
+      margin-right: 45%;
+      padding: 20px;
+      top: 0px;
+      margin-top: 0;
+      position: absolute;
+    }
+    
+  
+    .waldocover { 
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      transition: all .2s ease-in-out;
+      top: 200px;
+      left: 500px;
+    }
+    
+    .waldocover:hover {
+      transform: scale(1.1);
+    }
+  
+    .waldocover1 { 
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80px;
+      height: 80px;
+      position: absolute;
+      transition: all .2s ease-in-out;
+      top: 5px;
+      left: 5px;
+    }
+    
+    .waldocover1:hover {
+      transform: scale(1.1);
+    }
+  
+  
+    .waldologo{
+      width: 360px;
+      height: 190px;
+      position: absolute;
+      z-index:-1;
+  
+    }
+  
+    .box{
+      width: 600px;
+      height: 400px;
+      background-color: #009af1;
+      position: absolute; 
+      left: calc(50% - 300px);
+      top: 200px;
+      z-index: -1px;
+    }
+  
+    .wave{
+      width: 250px;
+      height: 300px;
+      margin-left: 0px;
+      left: calc(91.5% - 125px);
+      position: absolute;
+      margin-top: 30%;
+    }
+  
+    .yellowbox{
+      width: 200px;
+      height: 837px;
+      background-color: yellow;
+      margin-top: 0px;
+      padding-top: 0px;
+      border-top: 0px;
+      position: absolute;
+      top: 0px;
+      left: 400px;
+      z-index: -1;
+  
+    }
+  
+    .yellowbox0{
+      width: 200px;
+      height: 837px;
+      background-color: yellow;
+      
+      margin-top: 0px;
+      padding-top: 0px;
+      border-top: 0px;
+      position: absolute;
+      top: 0px;
+      margin-right: 0px;
+      left: 1240px;
+    }
+  
+    .yellowbox1{
+      width: 200px;
+      height: 837px;
+      background-color: yellow;
+      margin-top: 0px;
+      padding-top: 0px;
+      border-top: 0px;
+      position: absolute;
+      top: 0px;
+      margin-left: 0px;
+      left: 0px;
+      
+    }
+  
+    .aboutpara{
+      width: 290px;
+      top: 215px;
+      padding-left: 15px;
+      padding-right: 15px;
+      float: left;
+      position: absolute;
+      
+    }
+  
+    .historypara{
+      width: 290px;
+      top: 215px;
+      left: 710px;
+      padding-right: 15px;
+     
+      float: left;
+      position: absolute;
+      
+    }
+  
+    .historypara1{
+      width: 290px;
+      top: 283px;
+      left: 1060px;
+      padding-right: 15px;
+      
+      float: left;
+      position: absolute;
+    }
+    
+    .walking{
+      width: 350px;
+      height: 730px;
+      margin-top: 80px;
+      margin-left: 150px;
+      z-index: 1;
+    }
+  
+    .facts1{
+     
+        width: 290px;
+        top: 215px;
+        left: 710px;
+        padding-right: 15px;
+       font-style: lighter;
+        float: left;
+        position: absolute;
+        
+      
+    }
+  
+    .facts2{
+      width: 290px;
+      top: 215px;
+      left: 1060px;
+      padding-right: 15px;
+     font-style: lighter;
+      float: left;
+      position: absolute;  
+  }
+  
+  .theory1{
+     
+    width: 290px;
+    top: 355px;
+    left: 710px;
+    padding-right: 15px;
+   font-style: lighter;
+    float: left;
+    position: absolute;
+  
+  }
+  
+  .theory2{
+    width: 290px;
+    top: 355px;
+    left: 1060px;
+    padding-right: 15px;
+   font-style: lighter;
+    float: left;
+    position: absolute;  
+  }
+  
+  .scare{
+    width: 350px;
+    height: 500px;
+    /* margin-top: 300px; */
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    /* margin-left: 150px; */
+    z-index: 1;
+    top: 338px;
+    position: absolute;
+  }
+  
+  .world{
+    width:1200px;
+    height:1000px;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: absolute;
+    left: 130px;
+    z-index: -1;
+  }
+  
+  .italy{
+    width: 35px;
+      height: 35px;
+      top: 335px;
+      left: 712px;
+      position: absolute;
+  }
+  
+  .italy:hover{
+    transform: scale(2);
+  }
+  
+  .red-arrow{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top:280px;
+    left: 709px;
+    display: block;
+    -webkit-animation: action 1s infinite  alternate;
+    animation: action 0.5s infinite  alternate;
+  }
+  @-webkit-keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+  }
+  @keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+  }
+  
+  .newyork{
+    width: 35px;
+      height: 35px;
+      position: absolute;
+      top: 331px;
+      left: 388px;
+  }
+  
+  .LA{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 351px;
+    left: 213px;
+  }
+  
+  .brazil{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 600px;
+    left: 490px;
+  }
+  
+  .southafrica{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 652px;
+    left: 749px;
+  }
+  
+  .egypt{
+    width: 35px;
+      height: 35px;
+      position: absolute;
+      top: 394px;
+      left: 754px;
+  }
+  
+  .india{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 425px;
+    left: 952px;
+  }
+  
+  .UAE{
+    width: 35px;
+      height: 35px;
+      position: absolute;
+      top: 408px;
+      left: 860px;
+  }
+  
+  .australia{
+    width: 35px;
+      height: 35px;
+      position: absolute;
+      top: 629px;
+      left: 1155px;
+  }
+  
+  .italyP{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* opacity: 0; */
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+  }
+  
+  .italywaldo{
+    width: 56px;
+    height: 83px;
+    position: absolute;
+    left: 604px;
+    top: 605px;
+    opacity: 0;
+  }
+  
+  .egyptP{
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    border: 0;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+  }
+  
+  .egyptwaldo{
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    left: 1170px;
+    top: 216px;
+    opacity: 0;
+  }
+  
+  .southafricaP{
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    border: 0;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+  }
+  
+  .southafricawaldo{
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    left: 690px;
+    top: 280px;
+    opacity: 0;
+  }
+  
+  .UAEP{
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    border: 0;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+  }
+  
+  .UAEwaldo{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 740px;
+    top: 650px;
+    opacity: 0;
+  }
+  
+  .indiaP{
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    border: 0;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+  }
+  
+  .indiawaldo{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 935px;
+    top: 155px;
+    opacity: 0;
+  }
+  
+  .australiaP{
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    border: 0;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+  }
+  
+  .australiawaldo{
+    width: 92px;
+    height: 92px;
+    position: absolute;
+    left: 347px;
+    top: 575px;
+    opacity: 0;
+  }
+  
+  .LAP{
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    border: 0;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+  }
+  
+  .LAwaldo{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 1009px;
+    top: 330px;
+    opacity: 0;
+  }
+  
+  .NYP{
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    border: 0;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+  }
+  
+  .NYwaldo{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 1254px;
+    top: 534px;
+    opacity: 0;
+  }
+  
+  .brazilP{
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    border: 0;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+  }
+  
+  .brazilwaldo{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 372px;
+    top: 249px;
+    opacity: 0;
+  
+  }
+  
+  .blankwaldo{
+    width: 20px;
+    height: 40px;
+    top: 592px;
+    left: 202px;
+    position: absolute;
+    opacity: 0%;
+  }
+  
+  .blankwaldo:hover{
+    opacity: 80%
+  }
+  
+  p{
+    background-color: white;
+      text-align: center;
+      font-size: 10px;
+      background-color: yellow;
+      margin-right: 1300px;
+      padding: 10px;
+      top: 0px;
+      left: 0px;
+      position: absolute;
+  }
+  
+  .end{
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    border: 0;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+  }
+  
+  .right{
+    width: 50px;
+    height:50px;
+    position: absolute;
+    left: 1325px;
+    top: 350px;
+  }
+  
+  .left{
+    width: 50px;
+    height:50px;
+    position: absolute;
+    left: 60px;
+    top: 350px;
+  }
+  
+  .episodes{
+    top: 200px;
+    left: 425px;
+    position: absolute;
+  }
+  
+  .sound{
+    left: 1100px;
+    position: absolute;
+    top:10px;
+  }
+  
+  .resize{
+    width: 50px;
+    height:50px;
+  }
+} */
+
+
+
+
+
+
+
+
+/* @media screen and (max-width: 680px) {
   aside {
       display: none;
   }
@@ -640,10 +1284,10 @@ p{
 .theory1 {width: 20%;}
 .theory2 {width: 20%;}
 .scare {width: 350px;}
-.col-10 {width: 83.33%;}
+.resize {width: 50%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
-
+ */
 
 
 
